@@ -1,0 +1,7 @@
+ID: ghxx.ultrasavefixer
+Name: Ultra Save Fixer 'ItsOver300'
+Author: GHXX
+Version: 1.0.0
+Priority: 10
+Dependencies:
+    - ServerOnlyMods

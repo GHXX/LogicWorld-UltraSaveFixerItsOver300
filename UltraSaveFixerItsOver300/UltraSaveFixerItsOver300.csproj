@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="BetterClientModVerifier.cs" />
+    <Compile Remove="ModClass.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="LogicAPI">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Logic World\Server\LogicAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="LogicAPI.Client">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Logic World\Logic_World_Data\Managed\LogicAPI.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="LogicAPI.Server">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Logic World\Server\LogicAPI.Server.dll</HintPath>
+    </Reference>
+    <Reference Include="LogicLog">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Logic World\Server\LogicLog.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Hosting">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Logic World\Server\Microsoft.Extensions.Hosting.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Hosting.Abstractions">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Logic World\Server\Microsoft.Extensions.Hosting.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Server">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Logic World\Server\Server.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
